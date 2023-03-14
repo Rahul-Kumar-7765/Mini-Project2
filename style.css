@@ -1,0 +1,48 @@
+body{
+    background-color: #7a7d44;
+
+}
+#customers{
+    border-collapse: collapse;
+    width: 100%;
+}
+#customers td, #customers th{
+    border: 1px solid #ddd;
+}
+#customers tr:nth-child(even){
+    background-color: #12dc37;
+}
+#customers th{
+    padding: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(6, 92, 92);
+    color: rgb(232, 10, 221);
+}
+#customers tr:nth-child(odd){
+    background-color: #82880b;
+}
+h3{
+    text-align: center;
+    color: white;
+}
+p{
+    text-align: center;
+    color: white;
+}
+#Container{
+    border-collapse: collapse;
+    width: 100px;
+}
+#Container td , #Container th{
+    border: 1px solid #12dc37;
+}
+.box{
+    background-color: #070975;
+    width: 10px;
+    height: 10px;
+    border-radius: 500px;
+    padding: 50px;
+    margin: 100px;
+    float: right;
+}
